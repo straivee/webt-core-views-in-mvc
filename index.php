@@ -1,7 +1,7 @@
 <?php
-require_once("Hotel.php");
-require_once("HotelRepository.php");
-require_once("HotelView.php");
+require_once("public/Hotel.php");
+require_once("public/HotelRepository.php");
+require_once("public/HotelView.php");
 
 $template = file_get_contents("index.html");
 

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Hotels on the Strip</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotels am Las Vegas Strip</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hotel { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; }
+        @media (max-width: 600px) {
+            .hotel { font-size: 14px; }
+        }
+    </style>
 </head>
 <body>
-
-<h1>Famous Hotels on the Las Vegas Strip</h1>
-
-<div id="hotels">
-    {{HOTELS}}
-</div>
-
+<h1>Famous Hotels on the Strip</h1>
+{{HOTELS}}
 </body>
 </html>

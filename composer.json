@@ -1,0 +1,15 @@
+{
+    "name": "jerem/webt-core-views-in-mvc",
+    "autoload": {
+        "psr-4": {
+            "Jerem\\WebtCoreViewsInMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "straivee",
+            "email": "0132@htl.rennweg.at"
+        }
+    ],
+    "require": {}
+}

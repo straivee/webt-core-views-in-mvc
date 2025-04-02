@@ -1,6 +1,8 @@
 <?php
 
-require_once("Hotel.php");
+namespace Jerem\WebtCoreViewsInMvc\View;
+
+use Jerem\WebtCoreViewsInMvc\Model\Hotel;
 
 class HotelView {
     /**

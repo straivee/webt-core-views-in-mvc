@@ -1,5 +1,7 @@
 <?php
 
+namespace Jerem\WebtCoreViewsInMvc\Model;
+
 class Hotel {
     private string $name;
     private string $description;
